@@ -1,7 +1,7 @@
 https://www.codewars.com/kata/convert-a-string-to-an-array/train/javascript
 
 function stringToArray(string) {
-  var re = " ";
+  let re = " ";
   return string.split(re);
 }
 
@@ -13,10 +13,10 @@ function DNAtoRNA(dna) {
 
 https://www.codewars.com/kata/577a98a6ae28071780000989/train/javascript
 
-var min = function(list){
+let min = function(list){
     return Math.min(...list);
 }
-var max = function(list){
+let max = function(list){
     return Math.max(...list);
 }
 
