@@ -37,9 +37,9 @@ class Dog extends Animal {
   }
   
   greetMaster(){
-    return "Hello " + this.master;
+    return ' Hello ' + this.master;
   }
 }
 
 
-4
+
